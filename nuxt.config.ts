@@ -4,13 +4,4 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
   ],
-  eslint: {
-    config: {
-      stylistic: {
-        indent: 2,
-        quotes: 'single',
-        semi: false,
-      },
-    },
-  },
 })

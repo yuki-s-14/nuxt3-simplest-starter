@@ -1,4 +1,5 @@
 import withNuxt from './.nuxt/eslint.config.mjs'
+import stylistic from '@stylistic/eslint-plugin'
 
 export default withNuxt(
   {
@@ -17,4 +18,9 @@ export default withNuxt(
       'vue/no-use-v-if-with-v-for': 'error',
     },
   },
+  stylistic.configs.customize({
+    indent: 2,
+    quotes: 'single',
+    semi: false,
+  }),
 )
