@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-08-10',
   modules: [
     '@nuxt/eslint',
+    '@nuxt/test-utils/module',
   ],
   experimental: {
     componentIslands: true,
